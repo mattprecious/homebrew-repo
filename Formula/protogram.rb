@@ -1,8 +1,9 @@
 class Protogram < Formula
   desc "Quick and easy command line proto deserialization"
   homepage "https://github.com/mattprecious/protogram"
-  url "https://github.com/mattprecious/protogram/releases/download/0.2.0/protogram"
-  sha256 "f2e35f77bde11a2b5f5c867a95492d5733a2ecbba5caa6aac28c65ad1f10289e"
+  url "https://github.com/mattprecious/protogram/releases/download/0.2.1-test/protogram"
+  version "0.2.1-test"
+  sha256 "7ca4f11e89394b758c90460d5d2a21768ab5057fecd1dfc87dbec9e34fb33427"
   head "https://github.com/mattprecious/protogram.git"
 
   bottle :unneeded
