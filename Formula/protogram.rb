@@ -5,7 +5,7 @@ class Protogram < Formula
   sha256 "f2e35f77bde11a2b5f5c867a95492d5733a2ecbba5caa6aac28c65ad1f10289e"
   head "https://github.com/mattprecious/protogram.git"
 
-  depends_on :java
+  depends_on "openjdk"
 
   def install
     bin.install "protogram" => "protogram"
